@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+.all{
+    
+    box-sizing: border-box;
+    background-color: rgb(245, 248, 250);
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 90vw;
+    align-items: center;
+    text-align: center;
+    height: fit-content;
+    margin: 30px   auto;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ 
+  
+
+}
+
+nav ul{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 25px;
+    margin-left: 10px;
+    padding: 2px;
+    display: flex;
+    list-style-type: none;
+   
+}
+nav ul li a{
+    padding: 20px;
+    text-decoration: none;
+}
+
+
+nav a:hover{
+    background-color: blanchedalmond;
+   padding: 18px;
+   height: fit-content;
+   transition: width 0.4s  ease, height  o.4s ease;
+
+   border-radius: 10px;
+}
+.sawir img{
+    margin: 0px;
+    width: 300px;
+    height: 450px;
+    padding: 0px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.qoral ul li{
+    text-align: start;
+    font-size: 1rem;
+}
+.qoral h2{
+    text-decoration: underline;
+    color: blue;
+} 
+.qoral h4{
+    font-weight: 1rem;
+    font-size: 1.3rem;
+}
+h3{
+    color: blue;
+    text-decoration: underline;
+    
+}
+.header{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    border-radius: 10pxs;
+    border: 1px solid blue;
+    margin: 10px;
+    display: flex;
+    flex-basis: 40%;
+    padding: 10px;
+    gap: 10px;
+}
+.qoral{
+    flex-wrap: wrap;
+  
+    text-align: center;
+    flex-basis: 70%;
+}
